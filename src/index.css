@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@theme {
+  --color-white: #FDFBF7; /* Premium cream-white */
+}
+
+@layer base {
+  body {
+    font-family: 'Outfit', 'Sora', system-ui, -apple-system, sans-serif;
+    color: #14281D;
+    background-color: #FAF6EE; /* Warm cream/beige background */
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #E2E8F0;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #CBD5E1;
+}
+
+/* Smooth glass effect */
+.glass-panel {
+  background: rgba(253, 251, 247, 0.85);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(238, 242, 255, 0.8);
+}
+
+/* Map legacy green-white backgrounds to the premium cream white design system */
+.bg-\[\#F4F6F4\] {
+  background-color: #FAF6EE !important;
+}
+
+.hover\:bg-\[\#F4F6F4\]:hover {
+  background-color: #F3EFE6 !important;
+}

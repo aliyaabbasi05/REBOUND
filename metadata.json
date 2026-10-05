@@ -1,0 +1,7 @@
+{
+  "name": "REBOUND - AI Academic Recovery & Progress Coach",
+  "description": "Turn every test into your next step. AI-powered academic recovery, deep mistake diagnosis, personalized recovery plans, and curriculum-aligned coaching for students.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
